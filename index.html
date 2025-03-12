@@ -13,7 +13,38 @@
 </head>
 
 <body>
-
+  <div id="root" class="container">
+    <!-- Mockup code below -->
+    
+    <h2>Welcome to Scramble.</h2>
+    <!-- Game component -->
+    <div id="game">
+      <!-- Scores -->
+      <div class="scores">
+        <!-- score component -->
+        <div id="points" class="score">
+          <h1 id="pointscount">0</h1>
+          <h4>Points</h4>
+        </div>
+        <div id="strikes" class="score">
+          <h1 id="strikescount">0</h1>
+          <h4>Strikes</h4>
+        </div>
+      </div>
+      <!-- Message component -->
+      <div class="message correct">
+        <p>Correct, next word.<p>
+      </div>
+      <!-- Scrambled words -->
+      <h1 class="scrambled">DNKEYO</h1>
+      <div class="form">
+        <!-- Input form -->
+        <input type="text" id="query">
+        <!-- Passes Button -->
+        <button id="skipsBtn"><strong>3</strong> skips remaining</button>
+      </div>
+    </div>
+  </div>
   <script type="text/babel" src="app.js"></script>
 </body>
 

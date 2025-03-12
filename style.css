@@ -22,8 +22,8 @@
 .form {
     display: flex;
     flex-direction: column;
-    min-height: 50px;
     justify-content: space-between;
+    gap: 10px;
 }
 
 .message {
@@ -45,4 +45,8 @@
 
 .skipped {
     background-color: #C4E1FE;
+}
+
+.hide {
+    display: none;
 }

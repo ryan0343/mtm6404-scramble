@@ -33,3 +33,23 @@ function shuffle (src) {
 /**********************************************
  * YOUR CODE BELOW
  **********************************************/
+
+// Array of 10 words
+const words = [
+  "elephant",
+  "computer",
+  "banana",
+  "programming",
+  "mountain",
+  "sunshine",
+  "keyboard",
+  "guitar",
+  "coffee",
+  "chocolate"
+];
+
+
+// Overall App
+function App() {
+  
+}
